@@ -8,9 +8,9 @@ import Sobre from './pages/Sobre';
 import Footer from './components/Footer';
 import Login from './components/Login'; // Importando o componente Login
 import Admin from './components/Admin';
-import CaseList from './components/CaseList';
 import AddCase from './components/AddCase';
 import EditCase from './pages/EditCase';
+import PrivateRoute from './components/PrivateRoute';
 import Home from './pages/Home';
 
 
@@ -26,9 +26,9 @@ function App() {
         <Route path="/cases" element={<Cases />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/admin" element={<Admin />}>
-          <Route path="add" element={<AddCase />} />
-          <Route path="edit/:id" element={<EditCase />} />
+        <Route path="/admin" element={<PrivateRoute><Admin /></PrivateRoute>}>
+          <Route path="add" element={<PrivateRoute><AddCase /></PrivateRoute>} />
+          <Route path="edit/:id" element={<PrivateRoute><EditCase /></PrivateRoute>} />
         </Route>
       </Routes>
       <Footer />
