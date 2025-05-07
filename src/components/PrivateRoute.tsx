@@ -12,18 +12,21 @@ const PrivateRoute: React.FC<PrivateRouteProps> = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const { data: { session } } = supabase.auth.onAuthStateChange((_event, session) => {
+    const getSession = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      setSession(session);
+      setLoading(false);
+    };
+
+    getSession();
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setSession(session);
       setLoading(false);
     });
 
-    useEffect(() => {
-      const subscription = supabase.auth.onAuthStateChange((_event, session) => {
-        setSession(session);
-        setLoading(false);
-      });
-      return () => subscription.data.subscription?.unsubscribe();
-    }, []);
+    return () => subscription?.unsubscribe();
+  }, []);
 
   if (loading) {
     return <p>Carregando...</p>;
