@@ -166,7 +166,7 @@ const Home: React.FC = () => {
       <div
         className="relative h-screen flex items-center"
       >
-        <video src="src/video-h1.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover" />
+        <video src="/video-h1.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover" />
         {/* Conteúdo movido para dentro do container do vídeo */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-left bg-black/50"> {/* Adicionado overlay e centralização */}
           <div className="container mx-auto px-6 p-3">
