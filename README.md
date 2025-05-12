@@ -15,9 +15,11 @@ Este portfólio foi desenvolvido utilizando as seguintes tecnologias principais:
 * Exibição dos projetos recentes buscados do Supabase em um carrossel interativo (navegação por botões e arrastar). 
 * Seções dedicadas a listar Habilidades Técnicas e Habilidades Comportamentais. 
 
+
 * **Página de Cases:** * Busca e exibição de todos os casos cadastrados no Supabase. 
 * Funcionalidade de filtro por categoria para organizar a visualização dos casos. 
 * Navegação para a página de detalhes de cada projeto. 
+
 
 * **Páginas Adicionais:
 ** * Páginas "Sobre", "Serviços" e "Contato" para apresentar informações relevantes. 
