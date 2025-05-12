@@ -2,14 +2,16 @@
 Este portfólio foi desenvolvido utilizando as seguintes tecnologias principais: 
 
 *Frontend:
-**React, TypeScript, Tailwind CSS
+- React, TypeScript, Tailwind CSS
 
 *Roteamento:
-**React Router DOM
+- React Router DOM
+
 *Banco de Dados/Autenticação:
-**Supabase
+- Supabase
+
 *Build Tool:
-**Vite 
+- Vite 
 
 <br><br>
 ## Funcionalidades Principais
