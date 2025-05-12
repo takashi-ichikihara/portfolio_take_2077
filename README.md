@@ -3,9 +3,12 @@ Este portfólio foi desenvolvido utilizando as seguintes tecnologias principais:
 
 * **Frontend:** React, TypeScript, Tailwind CSS
 * * **Roteamento:** React Router DOM
-* * **Banco de Dados/Autenticação:** Supabase
-* * **Build Tool:** Vite ## Funcionalidades Principais
+* * **Banco de Dados/Autenticação:
+** Supabase
+* * **Build Tool:
+** Vite 
 
+## Funcionalidades Principais
 * * **Página Inicial (Home):
 * ** * Efeito de texto "máquina de escrever" na seção principal.
 * * Vídeo de fundo na seção hero. 
