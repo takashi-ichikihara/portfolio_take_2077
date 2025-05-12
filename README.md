@@ -1,3 +1,11 @@
+## Instalação
+- Crie uma pasta no seu diretório local
+- Extraia todos arquivos
+- Abra seu IDE favorito, execute no terminal 
+- npm install (vai ser instalado dentro da pasta node_modules todos os pacotes do package.json)
+- npm run dev
+
+
 ## Visão Geral do Portfólio 
 Este portfólio foi desenvolvido utilizando as seguintes tecnologias principais: 
 
