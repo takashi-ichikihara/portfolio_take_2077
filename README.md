@@ -13,7 +13,7 @@ Banco de Dados/Autenticação:
 Build Tool:
 - Vite 
 
-<br>
+<br />
 ## Funcionalidades Principais
 Página Inicial (Home):
 - Efeito de texto "máquina de escrever" na seção principal.
